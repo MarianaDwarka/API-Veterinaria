@@ -16,12 +16,12 @@ Un analista funcional realizó el relevamiento de las necesidades del cliente y 
 * apellido
 * celular
 
-La clínica quiere poder disponer de una aplicación web y de una aplicación móvil que puedan consultar al mismo backend.
+La clínica quiere poder disponer de una aplicación web y de una aplicación móvil que puedan consultar al mismo backend. Por lo tanto se desarrollan los siguientes puntos:
 
-1. Realizar CRUD/ABML de mascotas
-2. Realizar CRUD/ABML de dueños
-3. Obtener el listado de todas las mascotas de especie "perro" y raza "caniche"
-4. Obtener un listado de los siguientes datos combinados de una mascota y su dueño (uso del patrón DTO)
+1. CRUD/ABML de mascotas
+2. CRUD/ABML de dueños
+3. Listado de todas las mascotas de especie "perro" y raza "caniche"
+4. Lstado de los siguientes datos combinados de una mascota y su dueño (uso del patrón DTO):
   - nombre_mascota
   - especie
   - raza
