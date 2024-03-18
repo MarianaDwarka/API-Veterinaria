@@ -16,16 +16,15 @@ Un analista funcional realizó el relevamiento de las necesidades del cliente y 
 * apellido
 * celular
 
-Como dentro de poco la clínica quiere poder disponer de una aplicación web y de una aplicación móvil que puedan consultar al mismo backend, se requiere la realización de una API que sea capaz de:
+La clínica quiere poder disponer de una aplicación web y de una aplicación móvil que puedan consultar al mismo backend.
 
 1. Realizar CRUD/ABML de mascotas
 2. Realizar CRUD/ABML de dueños
 3. Obtener el listado de todas las mascotas de especie "perro" y raza "caniche"
-4. Obtener un listado de los siguientes datos combinados de una mascota y su dueño:
+4. Obtener un listado de los siguientes datos combinados de una mascota y su dueño (uso del patrón DTO)
   - nombre_mascota
   - especie
   - raza
   - nombre_duenio
   - apellido_duenio
-    
-Tener en cuenta para este último requerimiento el uso del patrón DTO para armar la correspondiente
+
